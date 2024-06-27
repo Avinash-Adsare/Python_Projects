@@ -1,0 +1,28 @@
+Task:
+Imagine you are hired by a small cafe called “Biscotti Cafe” to automate their day-to-day
+operations.
+- The cafe has a limited menu for now (mentioned below).
+- The place has only 6 tables.
+- Only one person waits on the tables (two parallel orders cannot be placed).
+Menu:
+- Coffee
+- Tea
+- Sandwich
+- Burger
+- Fries
+- Cake
+(*you are free to create your own menu; add/subtract any item you like/dislike. Set your own
+prices for each food item.)
+Your Job:
+Automate the order placement and bill generation process of Biscotti Cafe using Python
+Programming Language. The flow will roughly look like this.
+- The user (the waiter in our case) will open an Order for one Table.
+- The user will input a list of food items + individual quantities for that Order (based on
+customer’s choice).
+- Example: For Table 1, Order 1 - Coffee 2, Tea 1, Sandwich 2.
+- The customer at that particular Table can order more food items later. So, the active
+Order will not close until the user does so specifically.
+- Once closed, the program will fetch prices of the respective food items from its memory
+and calculate a net bill payable for this Order placed on a particular Table.
+Note: Take user input through the terminal and display your results in the terminal. Try making
+the interface as user-friendly as possible.
